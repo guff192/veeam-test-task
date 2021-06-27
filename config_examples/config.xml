@@ -1,4 +1,5 @@
 <config>
+    <c></c>
     <file
             source_path="/var/log"
             destination_path="/etc"
@@ -12,6 +13,11 @@
     />
     <file
             destination_path="/Users/admin/Downloads/test"
+            file_name="QA Automation Engineer (update 2020-03-15).docx"
+    />
+    <file
+            source_path="/Users/admin/Downloads"
+            destination_path=""
             file_name="QA Automation Engineer (update 2020-03-15).docx"
     />
 </config>

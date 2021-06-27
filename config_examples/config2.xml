@@ -1,0 +1,21 @@
+<config>
+    <file
+            source_path="/Users/admin/Downloads"
+            destination_path="/Users/admin/Downloads/test2"
+            file_name="QA Automation Engineer (update 2020-03-15).docx"
+    />
+    <file
+            destination_path="/Users/admin/Downloads/test"
+            file_name="QA Automation Engineer (update 2020-03-15).docx"
+    />
+    <file
+            source_path="/Users/admin/Downloads"
+            destination_path=""
+            file_name="QA Automation Engineer (update 2020-03-15).docx"
+    />
+    <file
+        source_path="/Users/admin/Downloads"
+        destination_path="/Users/admin/Downloads/test3"
+        file_name="TTofpX6hIJk.jpg"
+    />
+</config>
