@@ -1,6 +1,8 @@
 # Test task for Veeam Software
 
 ## Task 1
+Simple command-line utilite for copying files according to XML configs.  
+Also supports selecting directory, containing configs.
 ### Make file executable
 ```sh
 chmod +x task1.py
