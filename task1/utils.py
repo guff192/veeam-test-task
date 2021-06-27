@@ -4,6 +4,11 @@ import shutil
 import xml.etree.ElementTree
 
 
+def usage():
+    print('Usage:\n./task1.py config_files...\n./task1.py -d <configs_dir>')
+    exit()
+
+
 def get_files_list(argv):
     try:
         options, args = getopt.getopt(argv, '-d:')
@@ -11,14 +16,10 @@ def get_files_list(argv):
         assert len(args) > 0 or options.get('-d')
     except Exception as e:
         print(e)
-        print('Usage:\n./task1.py config_files...\n./task1.py -d <configs_dir>')
-        exit()
+        usage()
 
     if len(args) == 0:
-        return map(
-            lambda s: os.path.join(options['-d'], s),
-            os.listdir(options['-d'])
-        )
+        return map(lambda s: os.path.join(options['-d'], s), os.listdir(options['-d']))
 
     return args
 
