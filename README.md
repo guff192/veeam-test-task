@@ -7,11 +7,12 @@ chmod +x task1.py
 ```
 ### Usage
 ```sh
-./task1.py config_files...
-./task1.py -d <configs_dir>
+task1/task1.py config_files...
+task1/task1.py -d <configs_dir>
 ```
 
 ### Config file format
+Examples of config files are in config_examples/
 ```xml
 <!-- <any_file_name>.xml -->
 <config>
