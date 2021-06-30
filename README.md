@@ -1,5 +1,8 @@
 # Test task for Veeam Software
 
+1) <a href="#task-1">Task 1</a>
+2) <a href="#task-2">Task 2</a>
+
 ## Task 1
 <hr>
 
