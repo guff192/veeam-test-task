@@ -6,7 +6,7 @@ import xml.etree.ElementTree
 
 def usage():
     print('Usage:\n./task1.py config_files...\n./task1.py -d <configs_dir>')
-    exit()
+    exit(1)
 
 
 def get_files_list(argv):
