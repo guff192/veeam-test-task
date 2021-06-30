@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <config>
     <file
             source_path="/Users/admin/Downloads"
@@ -14,8 +15,8 @@
             file_name="QA Automation Engineer (update 2020-03-15).docx"
     />
     <file
-        source_path="/Users/admin/Downloads"
-        destination_path="/Users/admin/Downloads/test3"
-        file_name="TTofpX6hIJk.jpg"
+            source_path="/Users/admin/Downloads"
+            destination_path="/Users/admin/Downloads/test3"
+            file_name="TTofpX6hIJk.jpg"
     />
 </config>

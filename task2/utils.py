@@ -51,4 +51,3 @@ def check_sums(input_file_path, dir_path):
             print(name, 'OK')
         else:
             print(name, 'FAIL')
-
