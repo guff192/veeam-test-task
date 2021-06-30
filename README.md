@@ -46,7 +46,7 @@ Examples of config files are in config_examples/
 
 Command-line utility to check file hash sums in directory according to input file.
 
-###Make file executable
+### Make file executable
 ```shell
 chmod +x task2/task2.py
 ```
